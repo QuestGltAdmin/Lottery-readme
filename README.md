@@ -38,7 +38,7 @@ Match numbers, **from the left side of your ticket**, to the winning numbers dra
 <!-- ![Drawn Numbers](<../assets/img/winning-criteria-img.png>) -->
 
 
-![](<public/assets/img/winning-criteria-img.png>)
+![](<winning-criteria-img.png>)
 
 In the example above, Ticket A, The first 4 digits match and the last 2 digits doesn’t match.
 
