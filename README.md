@@ -12,7 +12,11 @@ Playing the NorthStar Lottery gives you a chance to win huge BUSD prizes! It's e
 * User can purchase Lottery Tickets from any of the Token or coin with liquidity on dex platform on bsc chain He/She Holds.
 * Individual user Lottery entry limit: No overall limit, but only 100 tickets can be bought at a time.
 * Paying for one ticket will give users a random 6-digit combination with each digit being between 0-9, for e.g. “1-9-3-2-0-4”. Match numbers from the left to win prizes—the more numbers that match, the bigger the prize pool you'll share in.
-* Lottery uses RandomNUmberGenerator along with Hashing for true, secure randomness.
+* Lottery uses RandomNumberGenerator along with Hashing for true, secure randomness.
+
+## RandomNumberGenerator
+
+This RandomGenerator generates a random number by repeatedly hashing input values and checking if the result falls within a specified range. It starts with an initial id and combines it with a timestamp and the sender's address to create a seed. Then, it combines this seed with the previous block's hash to generate a randomNumber. If the randomNumber is not within the desired range, the id is incremented, and the process is repeated until a suitable random number is found. Since the id and block timestamp are likely to be different each time the function is called, and the hash of the previous block is unpredictable, the function will produce a different random number each time it's invoked. 
 
 ## Ticket costs and bulk purchase discount
 
