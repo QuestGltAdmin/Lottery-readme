@@ -9,7 +9,7 @@ Playing the NorthStar Lottery gives you a chance to win huge BUSD prizes! It's e
 ## **Specifics:**
 
 * Lottery ticket cost for 1 ticket: \~$2 USD in any Coin or Token.
-* User can purchase Lottery Tickets from any of the Token or coin He/She Holds.
+* User can purchase Lottery Tickets from any of the Token or coin with liquidity on dex platform on bsc chain He/She Holds.
 * Individual user Lottery entry limit: No overall limit, but only 100 tickets can be bought at a time.
 * Paying for one ticket will give users a random 6-digit combination with each digit being between 0-9, for e.g. “1-9-3-2-0-4”. Match numbers from the left to win prizes—the more numbers that match, the bigger the prize pool you'll share in.
 * Lottery uses RandomNUmberGenerator along with Hashing for true, secure randomness.
